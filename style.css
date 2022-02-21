@@ -1,0 +1,128 @@
+:root {
+    font-size: calc(1vh+1vh);
+}
+* {
+    margin: 0;
+}
+body, html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.left {
+    position: relative;
+    width: 40vw;
+    height: 100%;
+    background-image: url('scream.jpg');
+    background-size: cover;
+}
+.logo {
+    display: flex;
+    flex-flow: row nowrap;
+    position: absolute;
+    top: 35%;
+    background-color: #00000052;
+    padding: 0.5vh 1vw 0.5vh 1vw;
+    width: 38vw;
+}
+.logo>img{
+    justify-self: center;
+    align-self: center;
+    width: 15vmin;
+    height: auto;
+}
+.logo>p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    font-size: 3.7vmin;
+    justify-self: center;
+    align-self: center;
+}
+.left>h4{
+    position: absolute;
+    bottom:0;
+    width: 34vmin;
+    left: 50%;
+    margin-left: -17vmin;
+    justify-self: center;
+    align-self: center;
+    color: white;
+    text-shadow: black 0.5px 0.5px;
+    font-size: 1.5vmin;
+    margin-bottom: 8px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.right {
+    width: 60vw;
+    height: 100%;
+}
+.top, .mid, .bot {
+    margin: 0;
+    padding: 2vh;
+}
+.top {
+    display: flex;
+    flex-flow: column wrap;
+    height: 26vh;
+    background-color: yellow;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-image: linear-gradient(270deg, #947B6Bff, #AC7B43ff);
+}   
+.top>h3 {
+    font-family: 'Merriweather', 'Arial NArrow', Arial;
+    font-size: calc(5px + 2vmin);   
+    max-width: 45vw;
+    max-height: 25vh;
+    margin-top: 4vh;
+
+
+}
+.top>p{
+    font-size: calc(8px + 0.6vmin);
+    align-self: flex-end;
+    color: #474432;
+    font-style: italic;
+    font-family: arial;
+
+}
+.mid {
+    height: 36vh;
+    background-color: #1F2218;
+    
+}
+.bot {
+    display: flex;
+    flex-flow: column;
+    height: 26vh;
+    gap: 2vh;
+    background: linear-gradient(90deg, #947B6B, #AC7B43);
+}
+#makeAcc{
+    width: calc(5vmin + 5vmax);
+    height: calc(2.5vmin + 2.5vmax);
+    border-radius: 10%;
+    border-color: #8A835E ;
+    background-color: #D9D6CA;
+    font-family: 'Playfair Display',Arial, Helvetica, sans-serif;
+    font-size: calc(.8vmin + .8vmax);
+    margin: 1.5vh 1.7vw 1.5vh 1.7vw;
+}
+
+
+/* CSS HEX 
+--black-chocolate: #1A1610ff;
+--beaver: #947B6Bff;
+--copper: #AC7B43ff;
+--smoky-black: #0D0F0Aff;
+--gainsboro: #D8E1DEff;
+*/
